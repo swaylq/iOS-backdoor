@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCBF83681C523C3E00BAC235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF83671C523C3E00BAC235 /* main.m */; };
+		DCBF836B1C523C3E00BAC235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF836A1C523C3E00BAC235 /* AppDelegate.m */; };
+		DCBF836E1C523C3E00BAC235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF836D1C523C3E00BAC235 /* ViewController.m */; };
+		DCBF83711C523C3E00BAC235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBF836F1C523C3E00BAC235 /* Main.storyboard */; };
+		DCBF83731C523C3E00BAC235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBF83721C523C3E00BAC235 /* Assets.xcassets */; };
+		DCBF83761C523C3E00BAC235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBF83741C523C3E00BAC235 /* LaunchScreen.storyboard */; };
+		DCBF83811C523C3F00BAC235 /* backDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF83801C523C3F00BAC235 /* backDoorTests.m */; };
+		DCBF838C1C523C3F00BAC235 /* backDoorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF838B1C523C3F00BAC235 /* backDoorUITests.m */; };
+		DCBF83A61C52402200BAC235 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBF83A51C52402200BAC235 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBF837D1C523C3F00BAC235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBF835B1C523C3E00BAC235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBF83621C523C3E00BAC235;
+			remoteInfo = backDoor;
+		};
+		DCBF83881C523C3F00BAC235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBF835B1C523C3E00BAC235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBF83621C523C3E00BAC235;
+			remoteInfo = backDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBF83671C523C3E00BAC235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCBF83691C523C3E00BAC235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCBF836A1C523C3E00BAC235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCBF836C1C523C3E00BAC235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCBF836D1C523C3E00BAC235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCBF83701C523C3E00BAC235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBF83721C523C3E00BAC235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCBF83751C523C3E00BAC235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCBF83771C523C3E00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBF83801C523C3F00BAC235 /* backDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backDoorTests.m; sourceTree = "<group>"; };
+		DCBF83821C523C3F00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBF838B1C523C3F00BAC235 /* backDoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backDoorUITests.m; sourceTree = "<group>"; };
+		DCBF838D1C523C3F00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBF83A51C52402200BAC235 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBF83601C523C3E00BAC235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBF83A61C52402200BAC235 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF83791C523C3F00BAC235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF83841C523C3F00BAC235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCBF835A1C523C3E00BAC235 = {
+			isa = PBXGroup;
+			children = (
+				DCBF83A51C52402200BAC235 /* libsqlite3.0.tbd */,
+				DCBF83651C523C3E00BAC235 /* backdoor */,
+				DCBF837F1C523C3F00BAC235 /* backdoorTests */,
+				DCBF838A1C523C3F00BAC235 /* backdoorUITests */,
+				DCBF83641C523C3E00BAC235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBF83641C523C3E00BAC235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */,
+				DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */,
+				DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCBF83651C523C3E00BAC235 /* backdoor */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF83691C523C3E00BAC235 /* AppDelegate.h */,
+				DCBF836A1C523C3E00BAC235 /* AppDelegate.m */,
+				DCBF836C1C523C3E00BAC235 /* ViewController.h */,
+				DCBF836D1C523C3E00BAC235 /* ViewController.m */,
+				DCBF836F1C523C3E00BAC235 /* Main.storyboard */,
+				DCBF83721C523C3E00BAC235 /* Assets.xcassets */,
+				DCBF83741C523C3E00BAC235 /* LaunchScreen.storyboard */,
+				DCBF83771C523C3E00BAC235 /* Info.plist */,
+				DCBF83661C523C3E00BAC235 /* Supporting Files */,
+			);
+			name = backdoor;
+			path = backDoor;
+			sourceTree = "<group>";
+		};
+		DCBF83661C523C3E00BAC235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF83671C523C3E00BAC235 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCBF837F1C523C3F00BAC235 /* backdoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF83801C523C3F00BAC235 /* backDoorTests.m */,
+				DCBF83821C523C3F00BAC235 /* Info.plist */,
+			);
+			name = backdoorTests;
+			path = backDoorTests;
+			sourceTree = "<group>";
+		};
+		DCBF838A1C523C3F00BAC235 /* backdoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF838B1C523C3F00BAC235 /* backDoorUITests.m */,
+				DCBF838D1C523C3F00BAC235 /* Info.plist */,
+			);
+			name = backdoorUITests;
+			path = backDoorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBF83621C523C3E00BAC235 /* backdoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBF83901C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoor" */;
+			buildPhases = (
+				DCBF835F1C523C3E00BAC235 /* Sources */,
+				DCBF83601C523C3E00BAC235 /* Frameworks */,
+				DCBF83611C523C3E00BAC235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = backdoor;
+			productName = backDoor;
+			productReference = DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCBF837B1C523C3F00BAC235 /* backdoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBF83931C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoorTests" */;
+			buildPhases = (
+				DCBF83781C523C3F00BAC235 /* Sources */,
+				DCBF83791C523C3F00BAC235 /* Frameworks */,
+				DCBF837A1C523C3F00BAC235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBF837E1C523C3F00BAC235 /* PBXTargetDependency */,
+			);
+			name = backdoorTests;
+			productName = backDoorTests;
+			productReference = DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCBF83861C523C3F00BAC235 /* backdoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBF83961C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoorUITests" */;
+			buildPhases = (
+				DCBF83831C523C3F00BAC235 /* Sources */,
+				DCBF83841C523C3F00BAC235 /* Frameworks */,
+				DCBF83851C523C3F00BAC235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBF83891C523C3F00BAC235 /* PBXTargetDependency */,
+			);
+			name = backdoorUITests;
+			productName = backDoorUITests;
+			productReference = DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBF835B1C523C3E00BAC235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sway;
+				TargetAttributes = {
+					DCBF83621C523C3E00BAC235 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 574227SVYT;
+					};
+					DCBF837B1C523C3F00BAC235 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCBF83621C523C3E00BAC235;
+					};
+					DCBF83861C523C3F00BAC235 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCBF83621C523C3E00BAC235;
+					};
+				};
+			};
+			buildConfigurationList = DCBF835E1C523C3E00BAC235 /* Build configuration list for PBXProject "backdoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCBF835A1C523C3E00BAC235;
+			productRefGroup = DCBF83641C523C3E00BAC235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBF83621C523C3E00BAC235 /* backdoor */,
+				DCBF837B1C523C3F00BAC235 /* backdoorTests */,
+				DCBF83861C523C3F00BAC235 /* backdoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBF83611C523C3E00BAC235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBF83761C523C3E00BAC235 /* LaunchScreen.storyboard in Resources */,
+				DCBF83731C523C3E00BAC235 /* Assets.xcassets in Resources */,
+				DCBF83711C523C3E00BAC235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF837A1C523C3F00BAC235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF83851C523C3F00BAC235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBF835F1C523C3E00BAC235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBF836E1C523C3E00BAC235 /* ViewController.m in Sources */,
+				DCBF836B1C523C3E00BAC235 /* AppDelegate.m in Sources */,
+				DCBF83681C523C3E00BAC235 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF83781C523C3F00BAC235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBF83811C523C3F00BAC235 /* backDoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF83831C523C3F00BAC235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBF838C1C523C3F00BAC235 /* backDoorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCBF837E1C523C3F00BAC235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBF83621C523C3E00BAC235 /* backdoor */;
+			targetProxy = DCBF837D1C523C3F00BAC235 /* PBXContainerItemProxy */;
+		};
+		DCBF83891C523C3F00BAC235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBF83621C523C3E00BAC235 /* backdoor */;
+			targetProxy = DCBF83881C523C3F00BAC235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCBF836F1C523C3E00BAC235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBF83701C523C3E00BAC235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBF83741C523C3E00BAC235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBF83751C523C3E00BAC235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBF838E1C523C3F00BAC235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCBF838F1C523C3F00BAC235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBF83911C523C3F00BAC235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = backDoor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoor;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		DCBF83921C523C3F00BAC235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = backDoor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoor;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+		DCBF83941C523C3F00BAC235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = backDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorTests;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backdoor.temp_caseinsensitive_rename.app/backdoor.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		DCBF83951C523C3F00BAC235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = backDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorTests;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backdoor.temp_caseinsensitive_rename.app/backdoor.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		DCBF83971C523C3F00BAC235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = backDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorUITests;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = backDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCBF83981C523C3F00BAC235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = backDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorUITests;
+				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = backDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBF835E1C523C3E00BAC235 /* Build configuration list for PBXProject "backdoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBF838E1C523C3F00BAC235 /* Debug */,
+				DCBF838F1C523C3F00BAC235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBF83901C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBF83911C523C3F00BAC235 /* Debug */,
+				DCBF83921C523C3F00BAC235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBF83931C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBF83941C523C3F00BAC235 /* Debug */,
+				DCBF83951C523C3F00BAC235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBF83961C523C3F00BAC235 /* Build configuration list for PBXNativeTarget "backdoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBF83971C523C3F00BAC235 /* Debug */,
+				DCBF83981C523C3F00BAC235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCBF835B1C523C3E00BAC235 /* Project object */;
+}
