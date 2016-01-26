@@ -32,10 +32,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G63-hV-VuN">
-                                <rect key="frame" x="20" y="139" width="32" height="30"/>
-                                <state key="normal" title="SMS"/>
+                                <rect key="frame" x="21" y="139" width="30" height="30"/>
+                                <state key="normal" title="短信"/>
                                 <connections>
                                     <action selector="getSMS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wXs-VH-f3s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjp-H6-2eI">
+                                <rect key="frame" x="20" y="177" width="30" height="30"/>
+                                <state key="normal" title="日历"/>
+                                <connections>
+                                    <action selector="getCalendar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZY-G6-BMm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gi-76-Eoa">
+                                <rect key="frame" x="20" y="215" width="30" height="30"/>
+                                <state key="normal" title="照片"/>
+                                <connections>
+                                    <action selector="getImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="frs-mR-uxV"/>
                                 </connections>
                             </button>
                         </subviews>

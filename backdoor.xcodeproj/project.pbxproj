@@ -36,7 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC539CE21C561773007AA521 /* backdoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backdoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC539CE31C561773007AA521 /* backdoor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC539CE41C561773007AA521 /* backdoor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBF83671C523C3E00BAC235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCBF83691C523C3E00BAC235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCBF836A1C523C3E00BAC235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,10 +48,8 @@
 		DCBF83721C523C3E00BAC235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBF83751C523C3E00BAC235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBF83771C523C3E00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBF83801C523C3F00BAC235 /* backDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backDoorTests.m; sourceTree = "<group>"; };
 		DCBF83821C523C3F00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backdoor.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBF838B1C523C3F00BAC235 /* backDoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backDoorUITests.m; sourceTree = "<group>"; };
 		DCBF838D1C523C3F00BAC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCBF83A51C52402200BAC235 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
@@ -88,18 +88,10 @@
 				DCBF83651C523C3E00BAC235 /* backdoor */,
 				DCBF837F1C523C3F00BAC235 /* backdoorTests */,
 				DCBF838A1C523C3F00BAC235 /* backdoorUITests */,
-				DCBF83641C523C3E00BAC235 /* Products */,
+				DC539CE21C561773007AA521 /* backdoor.app */,
+				DC539CE31C561773007AA521 /* backdoor.xctest */,
+				DC539CE41C561773007AA521 /* backdoor.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		DCBF83641C523C3E00BAC235 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */,
-				DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */,
-				DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DCBF83651C523C3E00BAC235 /* backdoor */ = {
@@ -164,7 +156,7 @@
 			);
 			name = backdoor;
 			productName = backDoor;
-			productReference = DCBF83631C523C3E00BAC235 /* backdoor.temp_caseinsensitive_rename.app */;
+			productReference = DC539CE21C561773007AA521 /* backdoor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DCBF837B1C523C3F00BAC235 /* backdoorTests */ = {
@@ -182,7 +174,7 @@
 			);
 			name = backdoorTests;
 			productName = backDoorTests;
-			productReference = DCBF837C1C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */;
+			productReference = DC539CE31C561773007AA521 /* backdoor.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DCBF83861C523C3F00BAC235 /* backdoorUITests */ = {
@@ -200,7 +192,7 @@
 			);
 			name = backdoorUITests;
 			productName = backDoorUITests;
-			productReference = DCBF83871C523C3F00BAC235 /* backdoor.temp_caseinsensitive_rename.xctest */;
+			productReference = DC539CE41C561773007AA521 /* backdoor.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +227,7 @@
 				Base,
 			);
 			mainGroup = DCBF835A1C523C3E00BAC235;
-			productRefGroup = DCBF83641C523C3E00BAC235 /* Products */;
+			productRefGroup = DCBF835A1C523C3E00BAC235;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -374,6 +366,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = backdoor;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -410,6 +403,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = backdoor;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -428,7 +422,7 @@
 					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoor;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 			};
 			name = Debug;
 		};
@@ -445,7 +439,7 @@
 					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoor;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 			};
 			name = Release;
 		};
@@ -456,7 +450,7 @@
 				INFOPLIST_FILE = backDoorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorTests;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backdoor.temp_caseinsensitive_rename.app/backdoor.temp_caseinsensitive_rename";
 			};
 			name = Debug;
@@ -468,7 +462,7 @@
 				INFOPLIST_FILE = backDoorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorTests;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backdoor.temp_caseinsensitive_rename.app/backdoor.temp_caseinsensitive_rename";
 			};
 			name = Release;
@@ -479,7 +473,7 @@
 				INFOPLIST_FILE = backDoorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorUITests;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 				TEST_TARGET_NAME = backDoor;
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +485,7 @@
 				INFOPLIST_FILE = backDoorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sway.backDoorUITests;
-				PRODUCT_NAME = backdoor.temp_caseinsensitive_rename;
+				PRODUCT_NAME = backdoor;
 				TEST_TARGET_NAME = backDoor;
 				USES_XCTRUNNER = YES;
 			};

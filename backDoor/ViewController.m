@@ -75,6 +75,12 @@
 }
 
 - (IBAction) getAddressBook:(id)sender {
+    ABAddressBookRef addressBookRef = ABAddressBookCreate();
+    ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error){
+        ABAddressBookRef addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
+        [self copyAddressBook:addressBook];
+    });
+
     int result = sqlite3_open("/private/var/mobile/Library/AddressBook/AddressBook.sqlitedb", &db);
     NSLog(@"%d", result);
 }
@@ -82,6 +88,52 @@
 - (IBAction) getSMS:(id)sender {
     int result = sqlite3_open("/private/var/mobile/Library/SMS/sms.db", &db);
     NSLog(@"%d", result);
+}
+
+- (IBAction) getCalendar:(id)sender {
+    int result = sqlite3_open("/private/var/mobile/Library/Calendar/Calendar.sqlitedb", &db);
+    NSLog(@"%d", result);
+}
+
+- (IBAction) getImages:(id)sender { 
+    int result = sqlite3_open("/private/var/mobile/Library/Calendar/Calendar.sqlitedb", &db);
+    NSLog(@"%d", result);
+}
+
+- (void)copyAddressBook:(ABAddressBookRef)addressBook
+{
+    CFIndex numberOfPeople = ABAddressBookGetPersonCount(addressBook);
+    CFArrayRef people = ABAddressBookCopyArrayOfAllPeople(addressBook);
+
+    for ( int i = 0; i < numberOfPeople; i++){
+        ABRecordRef person = CFArrayGetValueAtIndex(people, i);
+
+        NSString *firstName = (__bridge NSString *)(ABRecordCopyValue(person, kABPersonFirstNameProperty));
+        NSString *lastName = (__bridge NSString *)(ABRecordCopyValue(person, kABPersonLastNameProperty));
+        //读取middlename
+        NSString *middlename = (__bridge NSString*)ABRecordCopyValue(person, kABPersonMiddleNameProperty);
+        //读取nickname呢称
+        NSString *nickname = (__bridge NSString*)ABRecordCopyValue(person, kABPersonNicknameProperty);
+        //第一次添加该条记录的时间
+        NSString *firstknow = (__bridge NSString*)ABRecordCopyValue(person, kABPersonCreationDateProperty);
+        NSLog(@"第一次添加该条记录的时间%@\n",firstknow);
+        //最后一次修改該条记录的时间
+        NSString *lastknow = (__bridge NSString*)ABRecordCopyValue(person, kABPersonModificationDateProperty);
+        NSLog(@"最后一次修改該条记录的时间%@\n",lastknow);
+
+
+        //读取电话多值
+        ABMultiValueRef phone = ABRecordCopyValue(person, kABPersonPhoneProperty);
+        for (int k = 0; k<ABMultiValueGetCount(phone); k++)
+        {
+            //获取电话Label
+            NSString * personPhoneLabel = (__bridge NSString*)ABAddressBookCopyLocalizedLabel(ABMultiValueCopyLabelAtIndex(phone, k));
+            //获取该Label下的电话值
+            NSString * personPhone = (__bridge NSString*)ABMultiValueCopyValueAtIndex(phone, k);
+            NSLog(@"%@:%@", personPhoneLabel, personPhone);
+        }
+        
+    }
 }
 
 @end
